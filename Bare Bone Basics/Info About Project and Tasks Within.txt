@@ -1,0 +1,9 @@
+There are no special tasks in this one just demonstrating how i like to set up my projects and why.
+
+Notes:
+*	My projects are made as console applications because that allows me to use the command prompt
+interface provided to output information while the program is running and it allows me to clearly see patterns
+while debugging or just running the program itself.
+*	Console Applications close when they reach the end of the Main() sub so they must be put into a loop.
+*	You MUST INCLUDE my Open() sub for all forms otherwise they will be on the same thread as the console
+which is stuck in a loop. If you do not then you will not be able to interact with your forms.
